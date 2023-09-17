@@ -1,0 +1,181 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Arawaza Onyx Zero Gravity",
+      "price": 134.29,
+      "inCart": false,
+      "category": 1,
+      "count": 0,
+      "image": "ProductsPageImages/Arawaza/uniform-onyxzero-expert-arawaza.jpg"
+    },
+    {
+      "name": "Arawaza WKF approved Cotton Kumite Belts",
+      "price": 16.94,
+      "category": 1,
+      "inCart": false,
+      "count": 0,
+      "id": 2,
+      "image": "ProductsPageImages/Arawaza/belt-kumite-wkf-approved-arawaza.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Arawaza Onyx Oxygen, Karate",
+      "price": 220.73,
+      "inCart": false,
+      "category": 1,
+      "count": 0,
+      "image": "ProductsPageImages/Arawaza/uniform-onyx-oxygen-pl-red-arawaza.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Arawaza WKF Approved Shin pad",
+      "price": 71.23,
+      "inCart": false,
+      "category": 1,
+      "count": 0,
+      "image": "ProductsPageImages/Arawaza/shin-pads-approved-wkf-arawaza.jpg"
+    },
+    {
+      "id": 5,
+      "name": "body-protector-competition-wkf-arawaza",
+      "price": 123.14,
+      "inCart": false,
+      "category": 1,
+      "count": 0,
+      "image": "ProductsPageImages/Arawaza/body-protector-competition-wkf-arawaza.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Arawaza WKF Approved Chestguard",
+      "price": 86.24,
+      "inCart": false,
+      "category": 1,
+      "count": 0,
+      "image": "ProductsPageImages/Arawaza/chest-wkf-approved-arawaza.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Arawaza Black Diamond",
+      "price": 242.58,
+      "inCart": false,
+      "category": 1,
+      "count": 0,
+      "image": "ProductsPageImages/Arawaza/uniform-blackdiamond-expert-white-arawaza.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Arawaza WKF Approved Fist Gear",
+      "price": 45.62,
+      "inCart": false,
+      "category": 1,
+      "count": 0,
+      "image": "ProductsPageImages/Arawaza/fist-gear-wkf-approved-arawaza.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Adidas WKF Approved Shin pad",
+      "price": 68.78,
+      "inCart": false,
+      "category": 2,
+      "count": 0,
+      "image": "ProductsPageImages/Adidas/Adidas-shinkar.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Adidas WKF Approved Fist Gear",
+      "price": 41.24,
+      "inCart": false,
+      "category": 2,
+      "count": 0,
+      "image": "ProductsPageImages/Adidas/Adidas-waki.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Adidas WKF Approved Face Mask",
+      "price": 22.37,
+      "inCart": false,
+      "category": 2,
+      "count": 0,
+      "image": "ProductsPageImages/Adidas/Adidas-face-mask.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Taishan WKF Approved Mat",
+      "price": 60.72,
+      "inCart": false,
+      "category": 6,
+      "count": 0,
+      "image": "ProductsPageImages/Taishan/Taishan Mat.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Tokon WKF Colored Belt",
+      "price": 54.01,
+      "inCart": false,
+      "category": 7,
+      "count": 0,
+      "image": "ProductsPageImages/Tokon/Tokon Belts.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": 0,
+      "name": "All"
+    },
+    {
+      "id": 1,
+      "name": "Arawaza"
+    },
+    {
+      "id": 2,
+      "name": "Adidas"
+    },
+    {
+      "id": 3,
+      "name": "Smai"
+    },
+    {
+      "id": 4,
+      "name": "Tokaido"
+    },
+    {
+      "id": 5,
+      "name": "Shureido"
+    },
+    {
+      "id": 6,
+      "name": "Taishan"
+    },
+    {
+      "id": 7,
+      "name": "Tokon"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "role": "admin",
+      "email": "hagerkhalid1999@gmail.com",
+      "password": "123456789H@h"
+    },
+    {
+      "email": "hagerfathallah99@gmail.com",
+      "password": "123456789A@a",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "email": "hager123@gmail.com",
+      "password": "123456789B@b",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "email": "hager1234@gmail.com",
+      "password": "123456789C@c",
+      "role": "user",
+      "id": 4
+    }
+  ]
+}
