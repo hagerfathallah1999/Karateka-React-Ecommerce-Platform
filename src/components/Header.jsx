@@ -36,11 +36,6 @@ export default function Header({ noOfItemsInCart, user, setUser }) {
               className={({ isActive }) => (isActive ? "font-bold" : "")}
               to="/about"
             >
-              {/* <img
-                src="../src/assets/Imgs/AboutIcon.png"
-                alt="ProductsIcon"
-                className="w-4 md:w-6 lg:hidden"
-              /> */}
               <span className="hidden lg:block font-mono">ON SALE</span>
             </NavLink>
 
@@ -48,11 +43,6 @@ export default function Header({ noOfItemsInCart, user, setUser }) {
               className={({ isActive }) => (isActive ? "font-bold" : "")}
               to="/about"
             >
-              {/* <img
-                src="../src/assets/Imgs/AboutIcon.png"
-                alt="ProductsIcon"
-                className="w-4 md:w-6 lg:hidden"
-              /> */}
               <span className="hidden lg:block font-mono">FIND A STORE</span>
             </NavLink>
 
@@ -60,11 +50,6 @@ export default function Header({ noOfItemsInCart, user, setUser }) {
               className={({ isActive }) => (isActive ? "font-bold" : "")}
               to="/about"
             >
-              {/* <img
-                src="../src/assets/Imgs/AboutIcon.png"
-                alt="ProductsIcon"
-                className="w-4 md:w-6 lg:hidden"
-              /> */}
               <span className="hidden lg:block font-mono">VIDEOS</span>
             </NavLink>
 
@@ -72,24 +57,11 @@ export default function Header({ noOfItemsInCart, user, setUser }) {
               className={({ isActive }) => (isActive ? "font-bold" : "")}
               to="/about"
             >
-              {/* <img
-                src="../src/assets/Imgs/AboutIcon.png"
-                alt="ProductsIcon"
-                className="w-4 md:w-6 lg:hidden"
-              /> */}
               <span className="hidden lg:block font-mono">ABOUT US</span>
             </NavLink>
           </div>
 
           <div className="navbar-center">
-            {/* <img
-              src="../src/assets/Imgs/KaratekaIcon.png"
-              alt="ProductsIcon"
-              className="xs:hidden w-12"
-            /> */}
-            {/* <span className="normal-case xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-gray-700">
-              Karateka
-            </span> */}
             <img
               className="h-12 md:h-14 lg:h-16 "
               src="src\assets\Imgs\HeaderLogo\FinalLogo03.png"
@@ -102,11 +74,6 @@ export default function Header({ noOfItemsInCart, user, setUser }) {
               className={({ isActive }) => (isActive ? "font-bold" : "")}
               to="/"
             >
-              {/* <img
-                src="../src/assets/Imgs/HomeIcon.png"
-                alt="ProductsIcon"
-                className="w-4 md:w-6 lg:hidden"
-              /> */}
               <span className="hidden lg:block font-mono">Home</span>
             </NavLink>
 
@@ -115,11 +82,6 @@ export default function Header({ noOfItemsInCart, user, setUser }) {
                 className={({ isActive }) => (isActive ? "font-bold" : "")}
                 to="/register"
               >
-                {/* <img
-                  src="../src/assets/Imgs/RegisterIcon.png"
-                  alt="ProductsIcon"
-                  className="w-4 md:w-6 lg:hidden"
-                /> */}
                 <span className="hidden lg:block font-mono">Register</span>
               </NavLink>
             )}
@@ -129,11 +91,6 @@ export default function Header({ noOfItemsInCart, user, setUser }) {
                 className={({ isActive }) => (isActive ? "font-bold" : "")}
                 to="/login"
               >
-                {/* <img
-                  src="../src/assets/Imgs/LoginIcon.png"
-                  alt="ProductsIcon"
-                  className="w-4 md:w-6 lg:hidden"
-                /> */}
                 <span className="hidden lg:block font-mono"> / Login</span>
               </NavLink>
             )}
@@ -143,11 +100,6 @@ export default function Header({ noOfItemsInCart, user, setUser }) {
                 className={({ isActive }) => (isActive ? "font-bold" : "")}
                 to="/admin"
               >
-                {/* <img
-                  src="../src/assets/Imgs/AdminIcon.png"
-                  alt="ProductsIcon"
-                  className="w-4 md:w-6 lg:hidden"
-                /> */}
                 <span className="hidden lg:block font-mono"> Admin</span>
               </NavLink>
             )}
@@ -158,11 +110,6 @@ export default function Header({ noOfItemsInCart, user, setUser }) {
                 to="/"
                 onClick={handleLogout}
               >
-                {/* <img
-                  src="../src/assets/Imgs/LogoutIcon.png"
-                  alt="ProductsIcon"
-                  className="lg:hidden"
-                /> */}
                 <span className="w-4 md:w-6 hidden lg:block font-mono">
                   {" "}
                   Logout

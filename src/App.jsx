@@ -22,9 +22,6 @@ const pageSize = 6;
 
 function App() {
   const [user, setUser] = useState({ isAuthenticated: false, role: "" });
-
-  ////////// -------------------------------------------------------------------------- //////////
-
   const { items, categories, currentCategory, setItems, setCurrentCategory } =
     useMenu();
   // ---------------- States ---------------
@@ -45,12 +42,9 @@ function App() {
 
   const handleAddToCart = useCallback(
     (id) => {
-      // Clone
-      // Edit
       const newItems = items.map((item) =>
         item.id === id ? { ...item, inCart: !item.inCart, count: 1 } : item
       );
-      // SetState
       setItems(newItems);
     },
     [items, setItems]
@@ -66,16 +60,6 @@ function App() {
   };
 
   const handleIncrement = useCallback((id) => {
-    // //clone
-    // const newCounters = [...counters];
-    // const index = counters.findIndex((item) => item.id === id);
-    // const newCounter = { ...counters[index] };
-    // // edit
-    // newCounter.count += 1;
-    // newCounters[index] = newCounter;
-    // // updateState
-    // setCounters(newCounters);
-
     setItems((prevItems) =>
       prevItems.map((item) =>
         item.id === id ? { ...item, count: item.count + 1 } : item
@@ -92,18 +76,12 @@ function App() {
   }, []);
 
   const handleReset = () => {
-    // Clone
     let newCounters = [...items];
-    // Edit
     newCounters = newCounters.map((item) => ({ ...item, count: 0 }));
-    // SetState
     setItems(newCounters);
   };
 
   const handleRemoveFromCart = useCallback((id) => {
-    // Clone
-    // Edit
-    // Set State
     setItems((prevItems) =>
       prevItems.map((item) =>
         item.id === id ? { ...item, inCart: false } : item
@@ -129,7 +107,6 @@ function App() {
     <ThemeProvider>
       <BrowserRouter>
         <Header
-          // noOfItemsInCart={items.filter((item) => item.inCart).length}
           user={user}
           setUser={setUser}
           noOfItemsInCart={totalItemsInCart}

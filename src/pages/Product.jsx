@@ -59,7 +59,6 @@ export default function Product({
       } else {
         await handleEdit();
       }
-      // navigate to the admin page
       navigate("/admin");
     } catch (error) {
       console.log(error);

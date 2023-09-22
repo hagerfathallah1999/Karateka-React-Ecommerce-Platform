@@ -11,16 +11,6 @@ function Counter({ counter, handleIncrement, handleDecrement, handleDelete }) {
       <div className="w-10/12 grid grid-cols-7 border-b-2 my-2">
         <span className="col-span-4 mr-2">
           {name}
-          {/* {count >= 0 && (
-            <div>
-              <button
-                onClick={() => handleDelete(id)}
-                className="btn btn-error btn-sm"
-              >
-                <Trash classes="w-4 h-4" />
-              </button>
-            </div>
-          )} */}
         </span>
         <div>
           <button
